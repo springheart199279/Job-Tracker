@@ -12,6 +12,8 @@ import locale from 'element-ui/lib/locale/lang/en'
 Vue.use(ElementUI, { locale })
 Vue.config.productionTip = false
 
+//new Vue
+
 new Vue({
   router,
   render: (h) => h(App)
